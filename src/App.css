@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+ label {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.settings-body label {
+  align-items: flex-start;
+  color: #a5a5a5
+}
+
+.settings-body {
+  margin: auto;
+  width: 80%;
+}
+
+.settings-body label input, .settings-head label input {
+  padding: 5px;
+  border: 1px solid lightgrey;
+  width: 300px;
+}
+
+textarea {
+  height: 100px;
+  width: 312px;
+}
+
+input{
+  width: 150px;
+}
+
+textarea, input {
+  border: none;
+  
+}
+
